@@ -34,3 +34,38 @@ Which created the following files. **NOTE** README.md had already been created.
 
 ```
 
+I build the site using the following command
+```
+bundle exec jekyll build
+```
+
+The folder structure now look like this
+```
+.
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── _config.yml
+├── _data
+├── _drafts
+├── _includes
+├── _layouts
+│   └── default.html
+├── _posts
+├── _sass
+│   └── base.scss
+├── _site
+│   ├── README.md
+│   ├── assets
+│   │   └── css
+│   │       ├── main.css
+│   │       └── main.css.map
+│   └── index.html
+├── assets
+│   └── css
+│       └── main.scss
+└── index.md
+
+11 directories, 12 files
+```
+
