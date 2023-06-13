@@ -4,23 +4,33 @@ Decide if we are going to use static HTML+CSS+JS code or create a Jekyll site
 
 We will start by creating a blank Jekyll project.
 
-I have run the following command to initialise an empty Jekyll project.
+I have run the following commands to initialise an empty Jekyll project.
 ```
-jekyll new . --force
+bundle init
+jekyll new . --blank --force
 ```
 
-Which created the following files
+Which created the following files. **NOTE** README.md had already been created.
 ```
 .
-├── 404.html
 ├── Gemfile
 ├── Gemfile.lock
+├── README.md
 ├── _config.yml
+├── _data
+├── _drafts
+├── _includes
+├── _layouts
+│   └── default.html
 ├── _posts
-│   └── 2023-06-13-welcome-to-jekyll.markdown
-├── about.markdown
-└── index.markdown
+├── _sass
+│   └── base.scss
+├── assets
+│   └── css
+│       └── main.scss
+└── index.md
 
-1 directory, 7 files
+8 directories, 8 files
 
 ```
+
