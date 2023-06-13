@@ -5,7 +5,9 @@ Decide if we are going to use static HTML+CSS+JS code or create a Jekyll site
 We will start by creating a blank Jekyll project.
 
 I have run the following command to initialise an empty Jekyll project.
-```jekyll new . --force```
+```
+jekyll new . --force
+```
 
 Which created the following files
 ```
